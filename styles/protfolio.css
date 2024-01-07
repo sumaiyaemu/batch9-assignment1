@@ -1,0 +1,22 @@
+.header {
+    background-image: url('../images/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+    gap: 0;
+
+}
+h6{
+    color: #FFF;
+text-align: center;
+padding-top: 170px;
+font-size: 32px;
+margin-bottom: 25px;
+}
+h1{
+    color: #FFF;
+text-align: center;
+font-size: 72px;
+
+
+}
