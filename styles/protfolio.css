@@ -1,22 +1,71 @@
 .header {
-    background-image: url('../images/Banner\ Image.png');
+    background-image: url('../images/images/Banner\ Image.png');
+    background-position: center;
     width: 1320px;
     height: 600px;
-    margin: 50px 140px;
-    gap: 0;
+    max-width: 50px 140px;
+    margin-left: 200px;
+}
 
-}
-h6{
+h6 {
     color: #FFF;
-text-align: center;
-padding-top: 170px;
-font-size: 32px;
-margin-bottom: 25px;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 32px;
+    margin-bottom: 25px;
 }
-h1{
+
+h1 {
     color: #FFF;
-text-align: center;
-font-size: 72px;
+    text-align: center;
+    font-size: 72px;
+}
+
+.sale {
+    text-align: center;
+}
+
+.clr-primary {
+    color: #F00;
+    font-size: 88px;
+    margin-bottom: 10px;
+}
+
+.sale-title {
+    color: #F00;
+    margin-bottom: 20px;
+}
+
+.sale-description {
+    color: #070211;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.welcome {
+    background-image: url('../images/images/Vectorrr.png');
+    max-width: 50px 140px;
+    margin-left: 200px;
+    width: 1320px;
+    height: 600px;
+}
+.welcome-title{
+    color: #FFF;
+    font-size: 64px;
+    margin:;
+}
+.welcome-description{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+width: 697px;
+}
+.welcome-type{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
 
 
 }
