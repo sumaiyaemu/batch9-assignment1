@@ -55,34 +55,20 @@
 
 .welcome {
     background-image: url('../images/Vectorrr.png');
-    /* max-width: 50px 140px; */
-    /* margin-left: 140px; */
     width: 78%;
     max-width: 1320px;
     height: 600px;
     margin: 60px auto;
-    /* position: relative; */
-    /* margin-top: 120px; */
+    display: flex;
+    
 }
-
-/* height: 500px;
-    width: 78%;
-    max-width: 1320px;
-    margin: 60px auto;
-    flex-shrink: 0; */
-
-
-
 .welcome-title {
     color: #FFF;
     font-size: 64px;
     width: 642px;
     padding-top: 130px;
     margin-bottom: 20px;
-    
-    display: flex;
 }
-
 .welcome-description {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
@@ -90,17 +76,19 @@
     font-weight: 400;
     width: 697px;
 }
-
 .welcome-type {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
 }
+.bottom-right{
+    margin-right: 300px;
+}
 
 .welcome-container {
     padding-left: 130px;
-    position: relative;
+    
 }
 
 .bottom-right {
@@ -150,17 +138,7 @@
     width: 78%;
     max-width: 1320px;
     margin: 60px auto;
-
-    /* display: flex;
-    justify-content: space-between;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 120px; */
-
 }
-
-
-
 .cs-column {
     display: flex;
     justify-content: space-between;
@@ -200,6 +178,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 60px;
+    position: relative;
 }
 
 .row {
@@ -207,13 +186,15 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 20px;
-    /* Adjust spacing between rows */
+    
+    
 }
 
 .column {
     flex: 1;
     margin-right: 10px;
-    /* Adjust spacing between columns in the first row */
+    
+    
 }
 
 .column-full {
@@ -240,21 +221,21 @@
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 columns */
+    
     grid-gap: 10px;
-    /* spacing between grid items */
+    
 }
 
 .grid-item {
     width: 100%;
-    /* Ensure each image takes the full width of its container */
+
 }
 
 .grid-item img {
     width: 100%;
-    /* Make the image fill the grid item */
+    
     height: auto;
-    /* Maintain aspect ratio */
+    
 }
 
 .subs-column {
@@ -299,7 +280,7 @@
 
 footer {
     position: relative;
-   max-width: 1600px;
+   max-width: 1400px;
    margin:60px auto ;
     background-color: #070211;
     padding-bottom: 260px;
@@ -308,7 +289,7 @@ footer {
     color: #FFF;
   }
   p {
-    margin: 0; /* Remove default margins */
+    margin: 0; 
   }
   
   .top-left {
@@ -341,5 +322,9 @@ footer {
     position: absolute;
     bottom: 0;
     right: 140px;
+  }
+  .socail-link{
+    text-align: center;
+    margin-right: 500px;
   }
   
