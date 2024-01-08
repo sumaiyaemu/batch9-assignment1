@@ -52,6 +52,9 @@ h1 {
 .welcome-title{
     color: #FFF;
     font-size: 64px;
+    width: 642px;
+    padding-top: 130px;
+    margin-bottom: 20px;
 }
 .welcome-description{
     color: rgba(255, 255, 255, 0.80);
@@ -66,6 +69,11 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 700;
 }
-img{
-    display: flex;
+.welcome-container{
+    padding-left: 130px;
+}
+#year{
+    position:fixed;
+    bottom: 70px;
+    right: 400px;
 }
