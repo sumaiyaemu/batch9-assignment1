@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 .header {
     background-image: url('../images/Banner\ Image.png');
     background-position: center;
@@ -10,13 +9,7 @@
     height: 600px;
     max-width: 1320px;
     margin: 60px auto;
-
 }
-
-
-
-
-
 .header-title {
     color: #FFF;
     text-align: center;
@@ -30,29 +23,24 @@
     text-align: center;
     font-size: 72px;
 }
-
 .sale {
     text-align: center;
     margin-top: 120px;
 }
-
 .clr-primary {
     color: #F00;
     font-size: 88px;
     margin-bottom: 10px;
 }
-
 .sale-title {
     color: #F00;
     margin-bottom: 20px;
 }
-
 .sale-description {
     color: #070211;
     font-size: 30px;
     margin-top: 0;
 }
-
 .welcome {
     background-image: url('../images/Vectorrr.png');
     width: 78%;
@@ -60,8 +48,7 @@
     height: 600px;
     margin: 60px auto;
     display: flex;
-    position: relative;
-      
+    position: relative;     
 }
 .welcome-title {
     color: #FFF;
@@ -89,28 +76,20 @@
     font-weight: 700;
     border: none;
 }
-
-
 .welcome-container {
-    padding-left: 130px;
-    
+    padding-left: 130px;   
 }
-
 .about {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 78%;
     max-width: 1320px;
     height: 450px;
     align-items: center;
-    /* text-align: center; */
-
     margin: 60px auto;
     flex-shrink: 0;
-    /* padding: 100px 386px 214px 385px; */
 }
 
 .about-info-container {
-    /* display: block; */
     text-align: center;
     padding: 100px 386px 214px 385px;
     font-size: 32px;
@@ -298,19 +277,13 @@ footer {
     width: 375px;
    top: 0;
     left: 140px;
-   padding-top: 120px;
-   /*padding-top: 120px;
-    margin-bottom: 50px;*/
-
-    
+   padding-top: 120px;  
   }
-  
   .top-right {
     position: absolute;
     top: 0;
     right: 291px;
-    padding-top: 120px;
-    
+    padding-top: 120px; 
   }
   
   .bottom-left {
@@ -318,14 +291,11 @@ footer {
     bottom: 0;
     left: 140px;
     padding-top: 260px;
-   
   }
-  
   .bottom-right {
     position: absolute;
     bottom: 0;
-    right: 140px;
-    
+    right: 140px; 
   }
   .socail-link{
     text-align: center;
